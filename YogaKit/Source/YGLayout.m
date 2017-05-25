@@ -97,6 +97,10 @@ YGValue YGPercentValue(CGFloat value)
   return (YGValue) { .value = value, .unit = YGUnitPercent };
 }
 
+inline BOOL YGValueEqual(YGValue value1, YGValue value2) {
+    return value1.value == value2.value && value1.unit == value2.unit;
+}
+
 static YGConfigRef globalConfig;
 
 @interface YGLayout ()

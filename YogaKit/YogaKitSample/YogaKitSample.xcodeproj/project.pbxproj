@@ -16,6 +16,7 @@
 		40BD9F501E479079002790A9 /* SingleLabelCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD9F4F1E479079002790A9 /* SingleLabelCollectionCell.swift */; };
 		40BD9F521E479173002790A9 /* LayoutInclusionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD9F511E479173002790A9 /* LayoutInclusionViewController.swift */; };
 		638A94481E1F06D100A726AD /* ExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A94471E1F06D100A726AD /* ExamplesViewController.swift */; };
+		65EDCE4A1ED72BFA00454F67 /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDCE491ED72BFA00454F67 /* AutoLayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		40BD9F511E479173002790A9 /* LayoutInclusionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutInclusionViewController.swift; path = ViewControllers/LayoutInclusionViewController.swift; sourceTree = "<group>"; };
 		638A94471E1F06D100A726AD /* ExamplesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesViewController.swift; sourceTree = "<group>"; };
 		638A944F1E215CC800A726AD /* YogaKitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogaKitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EDCE491ED72BFA00454F67 /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoLayoutViewController.swift; path = ViewControllers/AutoLayoutViewController.swift; sourceTree = "<group>"; };
 		82F0896A88112E957EF37C7F /* Pods-YogaKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-YogaKitSample/Pods-YogaKitSample.release.xcconfig"; sourceTree = "<group>"; };
 		C80A931E90C7F3088CB86822 /* Pods_YogaKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaKitSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,6 +138,7 @@
 			children = (
 				40BD9F4A1E47850C002790A9 /* BasicViewController.swift */,
 				40BD9F511E479173002790A9 /* LayoutInclusionViewController.swift */,
+				65EDCE491ED72BFA00454F67 /* AutoLayoutViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				638A94481E1F06D100A726AD /* ExamplesViewController.swift in Sources */,
 				40BD9F4B1E47850C002790A9 /* BasicViewController.swift in Sources */,
 				40BD9F461E477A09002790A9 /* AppDelegate.swift in Sources */,
+				65EDCE4A1ED72BFA00454F67 /* AutoLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,7 +41,8 @@ final class ExamplesViewController: UIViewController, IGListAdapterDataSource, I
 
     // Update this to array to create more examples.
     private let models: [ExampleModel] = [ExampleModel(title: "Basic Layout", controllerClass: BasicViewController.self),
-                                          ExampleModel(title: "Exclude Views in Layout", controllerClass: LayoutInclusionViewController.self)]
+                                          ExampleModel(title: "Exclude Views in Layout", controllerClass: LayoutInclusionViewController.self),
+                                          ExampleModel(title: "Work with AutoLayout", controllerClass: AutoLayoutViewController.self)]
 
     //MARK: UIViewController
 

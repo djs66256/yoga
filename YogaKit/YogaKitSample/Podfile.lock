@@ -14,12 +14,12 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   YogaKit:
-    :path: ../../YogaKit.podspec
+    :path: "../../YogaKit.podspec"
 
 SPEC CHECKSUMS:
   IGListKit: b826c68ef7a4ae1626c09d4d3e1ea7a169e6c36e
-  Yoga: 2ed1d7accfef3610a67f58c0cf101a0662137f2c
-  YogaKit: 31576530e8fcae3175469719ec3212397403330b
+  Yoga: 6c3e934140e85babb68d17f85e1363d7d3b023c6
+  YogaKit: 4e3b6f6b566e940d57ad0b63d9b33b7dca5f55a9
 
 PODFILE CHECKSUM: 216f8e7127767709e0e43f3711208d238fa5c404
 

@@ -9,11 +9,16 @@
 
 #import "UIView+Yoga.h"
 #import "YGLayout+Private.h"
+#import "UIView+Yoga_Private.h"
 #import <objc/runtime.h>
 
 static const void *kYGYogaAssociatedKey = &kYGYogaAssociatedKey;
 
 @implementation UIView (YogaKit)
+
+- (YGLayout *)yogaNoLazilyCreated {
+    return objc_getAssociatedObject(self, kYGYogaAssociatedKey);
+}
 
 - (YGLayout *)yoga
 {
