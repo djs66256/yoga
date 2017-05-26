@@ -262,7 +262,7 @@ YG_PROPERTY(CGFloat, aspectRatio, AspectRatio)
   if (dimensionFlexibility & YGDimensionFlexibilityFlexibleWidth) {
     size.width = YGUndefined;
   }
-  if (dimensionFlexibility & YGDimensionFlexibilityFlexibleHeigth) {
+  if (dimensionFlexibility & YGDimensionFlexibilityFlexibleHeight) {
     size.height = YGUndefined;
   }
   [self calculateLayoutWithSize:size];
@@ -369,7 +369,7 @@ static void YGAttachNodesFromViewHierachy(UIView *const view)
 
     NSMutableArray<UIView *> *subviewsToInclude = [[NSMutableArray alloc] initWithCapacity:view.subviews.count];
     for (UIView *subview in view.subviews) {
-      if (subview.yoga.isIncludedInLayout) {
+      if (subview.yoga.isIncludedInLayout && subview.yoga.isEnabled) {
         [subviewsToInclude addObject:subview];
       }
     }
@@ -415,7 +415,7 @@ static void YGApplyLayoutToViewHierarchy(UIView *view, BOOL preserveOrigin)
 
   const YGLayout *yoga = view.yoga;
 
-  if (!yoga.isIncludedInLayout) {
+  if (!yoga.isIncludedInLayout || !yoga.isEnabled) {
      return;
   }
 

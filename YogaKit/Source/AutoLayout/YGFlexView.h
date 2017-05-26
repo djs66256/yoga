@@ -9,9 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "YGLayout.h"
 
-@interface YGRootView : UIView
-
-@property (assign, nonatomic) YGDimensionFlexibility dimensionFlexibility;
+@interface YGFlexView : UIView
 
 - (void)invalidateFlexLayout;
 
